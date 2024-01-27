@@ -7,7 +7,7 @@ export default function LandingPage(props) {
     return (
         <>
             <Header {...props}></Header>
-            <div className="px-10 lg:px-32">
+            <div className="px-5 lg:px-32">
                 <Hero data={landingPage.hero} />
             </div>
         </>

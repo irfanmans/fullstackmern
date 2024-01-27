@@ -13,7 +13,7 @@ export default function Header(props) {
 
     return (
         <>
-            <header className="relative border-b-[1px] py-5 px-10 flex justify-between lg:px-32">
+            <header className="relative border-b-[1px] py-5 px-5 flex justify-between lg:px-32">
                 <div className="text-2xl">
                     <BrandIcon />
                 </div>
