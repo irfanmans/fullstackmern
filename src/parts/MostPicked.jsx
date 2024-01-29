@@ -14,7 +14,7 @@ export default function MostPicked() {
                 </div>
                 <div className="pt-5 grid md:grid-cols-2 md:gap-5">
                     <div>
-                        <img src={img1} className="w-full h-96 md:w-full md:h-96 md:bg-cover lg:w-[600px]" alt="" />
+                        <img src={img1} className="w-full h-96 object-cover rounded-xl md:w-full md:h-96 md:bg-cover lg:w-full " alt="" />
                     </div>
                     <div className="flex flex-col gap-5 mt-5 md:mt-0 md:grid md:grid-cols-2">
                         <div>
