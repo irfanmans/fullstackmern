@@ -12,11 +12,11 @@ export default function MostPicked() {
                 <div className="font-poppins font-semibold pt-28">
                     <h2>Most Picked</h2>
                 </div>
-                <div className="pt-5 grid md:grid-cols-2 md:gap-4">
+                <div className="pt-5 grid md:grid-cols-2">
                     <div>
-                        <img src={img1} className="w-full h-96 md:w-full md:h-96 md:bg-cover" alt="" />
+                        <img src={img1} className="w-full h-96 md:w-full md:h-96 md:bg-cover lg:w-[600px]" alt="" />
                     </div>
-                    <div className="flex flex-col gap-3 mt-5 md:mt-0 md:grid md:grid-cols-2">
+                    <div className="flex flex-col gap-5 mt-5 md:mt-0 md:grid md:grid-cols-2">
                         <div>
                             <img src={img2} className="md:bg-cover md:h-full" alt="" />
                         </div>

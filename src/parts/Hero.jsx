@@ -52,7 +52,7 @@ export default function Hero({ data, refMostPicked }) {
                         </div>
                     </div>
                 </div>
-                <div className="mt-16 max-w-full mx-auto md:mt-0 lg:max-w-[550px]">
+                <div className="mt-16 max-w-full md:mt-0 lg:max-w-[550px]">
                     <img src={Banner} />
                 </div>
             </section>
